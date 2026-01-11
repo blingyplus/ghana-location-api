@@ -1,1 +1,330 @@
-[]
+[
+  {
+    "name": "Techiman",
+    "slug": "techiman",
+    "lat": 7.59054,
+    "lng": -1.93947,
+    "region_slug": "bono-east-region",
+    "district_slug": "techiman-municipal"
+  },
+  {
+    "name": "Nsawam",
+    "slug": "nsawam",
+    "lat": 5.80893,
+    "lng": -0.35026,
+    "region_slug": "eastern-region",
+    "district_slug": "nsawam-adoagyire-municipal"
+  },
+  {
+    "name": "Akatsi",
+    "slug": "akatsi",
+    "lat": 6.1316,
+    "lng": 0.79853,
+    "region_slug": "western-region",
+    "district_slug": "akatsi-north-district"
+  },
+  {
+    "name": "Accra",
+    "slug": "accra",
+    "lat": 5.55602,
+    "lng": -0.1969,
+    "region_slug": "greater-accra-region",
+    "district_slug": "accra-metro"
+  },
+  {
+    "name": "Takoradi",
+    "slug": "takoradi",
+    "lat": 4.89816,
+    "lng": -1.76029,
+    "region_slug": "upper-east-region",
+    "district_slug": "sekondi-takoradi-metropolitan-metro"
+  },
+  {
+    "name": "Shama Junction",
+    "slug": "shama-junction",
+    "lat": 5.01806,
+    "lng": -1.66437,
+    "region_slug": "upper-east-region",
+    "district_slug": "shama-district"
+  },
+  {
+    "name": "Kumasi",
+    "slug": "kumasi",
+    "lat": 6.68848,
+    "lng": -1.62443,
+    "region_slug": "ashanti-region",
+    "district_slug": "kumasi-metro"
+  },
+  {
+    "name": "Yendi",
+    "slug": "yendi",
+    "lat": 9.44272,
+    "lng": -0.00991,
+    "region_slug": "northern-region",
+    "district_slug": "yendi-municipal-municipal"
+  },
+  {
+    "name": "Savelugu",
+    "slug": "savelugu",
+    "lat": 9.62376,
+    "lng": -0.82705,
+    "region_slug": "northern-region",
+    "district_slug": "savelugu-municipal-municipal"
+  },
+  {
+    "name": "Berekum",
+    "slug": "berekum",
+    "lat": 7.4534,
+    "lng": -2.58404,
+    "region_slug": "bono-region",
+    "district_slug": "berekum-west-district"
+  },
+  {
+    "name": "Gbawe",
+    "slug": "gbawe",
+    "lat": 5.57692,
+    "lng": -0.31038,
+    "region_slug": "greater-accra-region",
+    "district_slug": "weija-gbawe-municipal"
+  },
+  {
+    "name": "Prestea",
+    "slug": "prestea",
+    "lat": 5.43385,
+    "lng": -2.14295,
+    "region_slug": "upper-east-region",
+    "district_slug": "prestea-huni-valley-municipal-municipal"
+  },
+  {
+    "name": "Bekwai",
+    "slug": "bekwai",
+    "lat": 6.45195,
+    "lng": -1.57866,
+    "region_slug": "ashanti-region",
+    "district_slug": "bekwai-municipal"
+  },
+  {
+    "name": "Sekondi",
+    "slug": "sekondi",
+    "lat": 4.93422,
+    "lng": -1.71454,
+    "region_slug": "upper-east-region",
+    "district_slug": "sekondi-takoradi-metropolitan-metro"
+  },
+  {
+    "name": "Sunyani",
+    "slug": "sunyani",
+    "lat": 7.33991,
+    "lng": -2.32676,
+    "region_slug": "bono-region",
+    "district_slug": "sunyani-municipal"
+  },
+  {
+    "name": "Bolgatanga",
+    "slug": "bolgatanga",
+    "lat": 10.78556,
+    "lng": -0.85139,
+    "region_slug": "upper-west-region",
+    "district_slug": "bolgatanga-municipal-municipal"
+  },
+  {
+    "name": "Suhum",
+    "slug": "suhum",
+    "lat": 6.04089,
+    "lng": -0.45004,
+    "region_slug": "eastern-region",
+    "district_slug": "suhum-municipal"
+  },
+  {
+    "name": "Atebubu",
+    "slug": "atebubu",
+    "lat": 7.75537,
+    "lng": -0.98085,
+    "region_slug": "bono-east-region",
+    "district_slug": "atebubu-amantin-municipal"
+  },
+  {
+    "name": "Sefwi",
+    "slug": "sefwi",
+    "lat": 6.52306,
+    "lng": -1.63596,
+    "region_slug": "ashanti-region",
+    "district_slug": "sefwi-wiawso-municipal"
+  },
+  {
+    "name": "Nkoranza",
+    "slug": "nkoranza",
+    "lat": 7.57127,
+    "lng": -1.7087,
+    "region_slug": "bono-east-region",
+    "district_slug": "nkoranza-north-district"
+  },
+  {
+    "name": "Anloga",
+    "slug": "anloga",
+    "lat": 5.79473,
+    "lng": 0.89728,
+    "region_slug": "western-region",
+    "district_slug": "anloga-district"
+  },
+  {
+    "name": "Tarkwa",
+    "slug": "tarkwa",
+    "lat": 5.30383,
+    "lng": -1.98956,
+    "region_slug": "upper-east-region",
+    "district_slug": "tarkwa-nsuaem-municipal-municipal"
+  },
+  {
+    "name": "Mampong",
+    "slug": "mampong",
+    "lat": 7.06273,
+    "lng": -1.4001,
+    "region_slug": "ashanti-region",
+    "district_slug": "mampong-municipal"
+  },
+  {
+    "name": "Jirapa",
+    "slug": "jirapa",
+    "lat": 10.53689,
+    "lng": -2.70155,
+    "region_slug": "western-north-region",
+    "district_slug": "jirapa-municipal-municipal"
+  },
+  {
+    "name": "Tamale",
+    "slug": "tamale",
+    "lat": 9.40079,
+    "lng": -0.8393,
+    "region_slug": "northern-region",
+    "district_slug": "tamale-metropolitan-metro"
+  },
+  {
+    "name": "Ho",
+    "slug": "ho",
+    "lat": 6.60084,
+    "lng": 0.4713,
+    "region_slug": "western-region",
+    "district_slug": "mpohor-district"
+  },
+  {
+    "name": "Wa",
+    "slug": "wa",
+    "lat": 10.06069,
+    "lng": -2.50192,
+    "region_slug": "western-north-region",
+    "district_slug": "atwima-kwanwoma-district"
+  },
+  {
+    "name": "Hohoe",
+    "slug": "hohoe",
+    "lat": 7.15181,
+    "lng": 0.47362,
+    "region_slug": "western-region",
+    "district_slug": "hohoe-municipal-municipal"
+  },
+  {
+    "name": "Tafo",
+    "slug": "tafo",
+    "lat": 6.73156,
+    "lng": -1.6137,
+    "region_slug": "ashanti-region",
+    "district_slug": "old-tafo-municipal"
+  },
+  {
+    "name": "Aboso",
+    "slug": "aboso",
+    "lat": 5.36073,
+    "lng": -1.94856,
+    "region_slug": "upper-east-region",
+    "district_slug": "juaboso-district"
+  },
+  {
+    "name": "Cape Coast",
+    "slug": "cape-coast",
+    "lat": 5.10535,
+    "lng": -1.2466,
+    "region_slug": "central-region",
+    "district_slug": "cape-coast-metro"
+  },
+  {
+    "name": "Tema",
+    "slug": "tema",
+    "lat": 5.6698,
+    "lng": -0.01657,
+    "region_slug": "greater-accra-region",
+    "district_slug": "tema-metropolitan-metro"
+  },
+  {
+    "name": "Esim",
+    "slug": "esim",
+    "lat": 4.86641,
+    "lng": -2.24181,
+    "region_slug": "upper-east-region",
+    "district_slug": "effia-kwesimintsim-municipal-municipal"
+  },
+  {
+    "name": "Adenta",
+    "slug": "adenta",
+    "lat": 5.71417,
+    "lng": -0.15418,
+    "region_slug": "greater-accra-region",
+    "district_slug": "adenta-municipal"
+  },
+  {
+    "name": "Kpandu",
+    "slug": "kpandu",
+    "lat": 6.99536,
+    "lng": 0.29306,
+    "region_slug": "western-north-region",
+    "district_slug": "bunkpurugu-nyankpanduri-district"
+  },
+  {
+    "name": "Keta",
+    "slug": "keta",
+    "lat": 5.91793,
+    "lng": 0.98789,
+    "region_slug": "western-region",
+    "district_slug": "keta-municipal-municipal"
+  },
+  {
+    "name": "Bawku",
+    "slug": "bawku",
+    "lat": 11.05926,
+    "lng": -0.24249,
+    "region_slug": "upper-west-region",
+    "district_slug": "bawku-municipal-municipal"
+  },
+  {
+    "name": "Kintampo",
+    "slug": "kintampo",
+    "lat": 8.05627,
+    "lng": -1.73058,
+    "region_slug": "bono-east-region",
+    "district_slug": "kintampo-north-municipal"
+  },
+  {
+    "name": "Ashaiman",
+    "slug": "ashaiman",
+    "lat": 5.69951,
+    "lng": -0.03484,
+    "region_slug": "greater-accra-region",
+    "district_slug": "ashaiman-municipal"
+  },
+  {
+    "name": "Osu",
+    "slug": "osu",
+    "lat": 5.55728,
+    "lng": -0.1864,
+    "region_slug": "greater-accra-region",
+    "district_slug": "shai-osudoku-district"
+  },
+  {
+    "name": "Ejura",
+    "slug": "ejura",
+    "lat": 7.38558,
+    "lng": -1.35617,
+    "region_slug": "ashanti-region",
+    "district_slug": "ejurasekyedumase-municipal"
+  }
+]

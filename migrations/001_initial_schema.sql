@@ -41,7 +41,8 @@ CREATE TABLE cities (
     district_id UUID NOT NULL REFERENCES districts(id) ON DELETE CASCADE,
     name VARCHAR NOT NULL,
     lat DECIMAL(10, 8),
-    lng DECIMAL(11, 8)
+    lng DECIMAL(11, 8),
+    UNIQUE(district_id, name)
 );
 
 -- Indexes for performance

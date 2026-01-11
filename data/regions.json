@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "name": "Ahafo Region",
+    "slug": "ahafo-region",
+    "capital": "Goaso"
+  },
+  {
+    "name": "Ashanti Region",
+    "slug": "ashanti-region",
+    "capital": "Kumasi"
+  },
+  {
+    "name": "Bono Region",
+    "slug": "bono-region",
+    "capital": "Sunyani"
+  },
+  {
+    "name": "Bono East Region",
+    "slug": "bono-east-region",
+    "capital": "Techiman"
+  },
+  {
+    "name": "Central Region",
+    "slug": "central-region",
+    "capital": "Cape Coast"
+  },
+  {
+    "name": "Eastern Region",
+    "slug": "eastern-region",
+    "capital": "Koforidua"
+  },
+  {
+    "name": "Greater Accra Region",
+    "slug": "greater-accra-region",
+    "capital": "Accra"
+  },
+  {
+    "name": "Northern Region",
+    "slug": "northern-region",
+    "capital": "Tamale"
+  },
+  {
+    "name": "North East Region",
+    "slug": "north-east-region",
+    "capital": "Nalerigu"
+  },
+  {
+    "name": "Oti Region",
+    "slug": "oti-region",
+    "capital": "Dambai"
+  },
+  {
+    "name": "Savannah Region",
+    "slug": "savannah-region",
+    "capital": "Damongo"
+  },
+  {
+    "name": "Upper East Region",
+    "slug": "upper-east-region",
+    "capital": "Bolgatanga"
+  },
+  {
+    "name": "Upper West Region",
+    "slug": "upper-west-region",
+    "capital": "Wa"
+  },
+  {
+    "name": "Volta Region",
+    "slug": "volta-region",
+    "capital": "Ho"
+  },
+  {
+    "name": "Western Region",
+    "slug": "western-region",
+    "capital": "Sekondi-takoradi"
+  },
+  {
+    "name": "Western North Region",
+    "slug": "western-north-region",
+    "capital": "Sefwi Wiawso"
+  }
+]

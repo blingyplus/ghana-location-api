@@ -23,3 +23,8 @@ go.work
 # OS
 .DS_Store
 Thumbs.db
+
+# Scripts directory (contains temporary files and raw data)
+scripts/
+
+supabase/
