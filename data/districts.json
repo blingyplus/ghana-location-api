@@ -518,8 +518,8 @@
     "region_slug": "central-region"
   },
   {
-    "name": "Agona West Municipal",
-    "slug": "agona-west-municipal-municipal",
+    "name": "Agona West",
+    "slug": "agona-west-municipal",
     "type": "municipal",
     "capital": "Agona Swedru",
     "region_slug": "central-region"
@@ -1071,8 +1071,8 @@
     "region_slug": "greater-accra-region"
   },
   {
-    "name": "Tema Metropolitan",
-    "slug": "tema-metropolitan-metro",
+    "name": "Tema",
+    "slug": "tema-metro",
     "type": "metro",
     "capital": "Tema",
     "region_slug": "greater-accra-region"
@@ -1092,8 +1092,8 @@
     "region_slug": "greater-accra-region"
   },
   {
-    "name": "Gushegu Municipal",
-    "slug": "gushegu-municipal-municipal",
+    "name": "Gushegu",
+    "slug": "gushegu-municipal",
     "type": "municipal",
     "capital": "Gushegu",
     "region_slug": "northern-region"
@@ -1134,8 +1134,8 @@
     "region_slug": "northern-region"
   },
   {
-    "name": "Nanumba North Municipal",
-    "slug": "nanumba-north-municipal-municipal",
+    "name": "Nanumba North",
+    "slug": "nanumba-north-municipal",
     "type": "municipal",
     "capital": "Bimbilla",
     "region_slug": "northern-region"
@@ -1155,22 +1155,22 @@
     "region_slug": "northern-region"
   },
   {
-    "name": "Sagnarigu Municipal",
-    "slug": "sagnarigu-municipal-municipal",
+    "name": "Sagnarigu",
+    "slug": "sagnarigu-municipal",
     "type": "municipal",
     "capital": "Sagnarigu",
     "region_slug": "northern-region"
   },
   {
-    "name": "Savelugu Municipal",
-    "slug": "savelugu-municipal-municipal",
+    "name": "Savelugu",
+    "slug": "savelugu-municipal",
     "type": "municipal",
     "capital": "Savelugu",
     "region_slug": "northern-region"
   },
   {
-    "name": "Tamale Metropolitan",
-    "slug": "tamale-metropolitan-metro",
+    "name": "Tamale",
+    "slug": "tamale-metro",
     "type": "metro",
     "capital": "Tamale",
     "region_slug": "northern-region"
@@ -1190,8 +1190,8 @@
     "region_slug": "northern-region"
   },
   {
-    "name": "Yendi Municipal",
-    "slug": "yendi-municipal-municipal",
+    "name": "Yendi",
+    "slug": "yendi-municipal",
     "type": "municipal",
     "capital": "Yendi",
     "region_slug": "northern-region"
@@ -1316,8 +1316,8 @@
     "region_slug": "savannah-region"
   },
   {
-    "name": "East Gonja Municipal",
-    "slug": "east-gonja-municipal-municipal",
+    "name": "East Gonja",
+    "slug": "east-gonja-municipal",
     "type": "municipal",
     "capital": "Salaga",
     "region_slug": "savannah-region"
@@ -1351,8 +1351,8 @@
     "region_slug": "savannah-region"
   },
   {
-    "name": "Bawku Municipal",
-    "slug": "bawku-municipal-municipal",
+    "name": "Bawku",
+    "slug": "bawku-municipal",
     "type": "municipal",
     "capital": "Bawku",
     "region_slug": "upper-east-region"
@@ -1379,8 +1379,8 @@
     "region_slug": "upper-east-region"
   },
   {
-    "name": "Bolgatanga Municipal",
-    "slug": "bolgatanga-municipal-municipal",
+    "name": "Bolgatanga",
+    "slug": "bolgatanga-municipal",
     "type": "municipal",
     "capital": "Bolgatanga",
     "region_slug": "upper-east-region"
@@ -1393,8 +1393,8 @@
     "region_slug": "upper-east-region"
   },
   {
-    "name": "Builsa North Municipal",
-    "slug": "builsa-north-municipal-municipal",
+    "name": "Builsa North",
+    "slug": "builsa-north-municipal",
     "type": "municipal",
     "capital": "Sandema",
     "region_slug": "upper-east-region"
@@ -1414,8 +1414,8 @@
     "region_slug": "upper-east-region"
   },
   {
-    "name": "Kassena-nankana Municipal",
-    "slug": "kassena-nankana-municipal-municipal",
+    "name": "Kassena-nankana",
+    "slug": "kassena-nankana-municipal",
     "type": "municipal",
     "capital": "Navrongo",
     "region_slug": "upper-east-region"
@@ -1463,8 +1463,8 @@
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Jirapa Municipal",
-    "slug": "jirapa-municipal-municipal",
+    "name": "Jirapa",
+    "slug": "jirapa-municipal",
     "type": "municipal",
     "capital": "Jirapa",
     "region_slug": "upper-west-region"
@@ -1477,8 +1477,8 @@
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Lawra Municipal",
-    "slug": "lawra-municipal-municipal",
+    "name": "Lawra",
+    "slug": "lawra-municipal",
     "type": "municipal",
     "capital": "Lawra",
     "region_slug": "upper-west-region"
@@ -1491,15 +1491,15 @@
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Nandom Municipal",
-    "slug": "nandom-municipal-municipal",
+    "name": "Nandom",
+    "slug": "nandom-municipal",
     "type": "municipal",
     "capital": "Nandom",
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Sissala East Municipal",
-    "slug": "sissala-east-municipal-municipal",
+    "name": "Sissala East",
+    "slug": "sissala-east-municipal",
     "type": "municipal",
     "capital": "Tumu",
     "region_slug": "upper-west-region"
@@ -1519,8 +1519,8 @@
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Wa Municipal",
-    "slug": "wa-municipal-municipal",
+    "name": "Wa",
+    "slug": "wa-municipal",
     "type": "municipal",
     "capital": "Wa",
     "region_slug": "upper-west-region"
@@ -1533,8 +1533,8 @@
     "region_slug": "upper-west-region"
   },
   {
-    "name": "Adaklu District",
-    "slug": "adaklu-district-district",
+    "name": "Adaklu",
+    "slug": "adaklu-district",
     "type": "district",
     "capital": "Adaklu Waya",
     "region_slug": "volta-region"
@@ -1582,8 +1582,8 @@
     "region_slug": "volta-region"
   },
   {
-    "name": "Ho Municipal",
-    "slug": "ho-municipal-municipal",
+    "name": "Ho",
+    "slug": "ho-municipal",
     "type": "municipal",
     "capital": "Ho",
     "region_slug": "volta-region"
@@ -1596,36 +1596,36 @@
     "region_slug": "volta-region"
   },
   {
-    "name": "Hohoe Municipal",
-    "slug": "hohoe-municipal-municipal",
+    "name": "Hohoe",
+    "slug": "hohoe-municipal",
     "type": "municipal",
     "capital": "Hohoe",
     "region_slug": "volta-region"
   },
   {
-    "name": "Keta Municipal",
-    "slug": "keta-municipal-municipal",
+    "name": "Keta",
+    "slug": "keta-municipal",
     "type": "municipal",
     "capital": "Keta",
     "region_slug": "volta-region"
   },
   {
-    "name": "Ketu North Municipal",
-    "slug": "ketu-north-municipal-municipal",
+    "name": "Ketu North",
+    "slug": "ketu-north-municipal",
     "type": "municipal",
     "capital": "Dzodze",
     "region_slug": "volta-region"
   },
   {
-    "name": "Ketu South Municipal",
-    "slug": "ketu-south-municipal-municipal",
+    "name": "Ketu South",
+    "slug": "ketu-south-municipal",
     "type": "municipal",
     "capital": "Denu",
     "region_slug": "volta-region"
   },
   {
-    "name": "Kpando Municipal",
-    "slug": "kpando-municipal-municipal",
+    "name": "Kpando",
+    "slug": "kpando-municipal",
     "type": "municipal",
     "capital": "Kpando",
     "region_slug": "volta-region"
@@ -1680,8 +1680,8 @@
     "region_slug": "western-region"
   },
   {
-    "name": "Effia Kwesimintsim Municipal",
-    "slug": "effia-kwesimintsim-municipal-municipal",
+    "name": "Effia Kwesimintsim",
+    "slug": "effia-kwesimintsim-municipal",
     "type": "municipal",
     "capital": "Kwesimintsim",
     "region_slug": "western-region"
@@ -1708,22 +1708,22 @@
     "region_slug": "western-region"
   },
   {
-    "name": "Nzema East Municipal",
-    "slug": "nzema-east-municipal-municipal",
+    "name": "Nzema East",
+    "slug": "nzema-east-municipal",
     "type": "municipal",
     "capital": "Axim",
     "region_slug": "western-region"
   },
   {
-    "name": "Prestea-huni Valley Municipal",
-    "slug": "prestea-huni-valley-municipal-municipal",
+    "name": "Prestea-huni Valley",
+    "slug": "prestea-huni-valley-municipal",
     "type": "municipal",
     "capital": "Prestea",
     "region_slug": "western-region"
   },
   {
-    "name": "Sekondi Takoradi Metropolitan",
-    "slug": "sekondi-takoradi-metropolitan-metro",
+    "name": "Sekondi Takoradi",
+    "slug": "sekondi-takoradi-metro",
     "type": "metro",
     "capital": "Sekondi-takoradi",
     "region_slug": "western-region"
@@ -1736,8 +1736,8 @@
     "region_slug": "western-region"
   },
   {
-    "name": "Tarkwa-nsuaem Municipal",
-    "slug": "tarkwa-nsuaem-municipal-municipal",
+    "name": "Tarkwa-nsuaem",
+    "slug": "tarkwa-nsuaem-municipal",
     "type": "municipal",
     "capital": "Tarkwa",
     "region_slug": "western-region"
