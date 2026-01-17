@@ -15,6 +15,7 @@ Country
 ```
 
 The API is designed to be:
+
 - **Read-only** - No mutations, no user data
 - **Fast** - Optimized queries with proper indexing
 - **Stable** - Slug-based identifiers that never change
@@ -58,28 +59,33 @@ supabase db get-connection-string
 
 ### 4. Run database migrations
 
-Connect to your database and run the migration:
+Run the migration using the migrate command:
+
+```bash
+go run cmd/migrate/main.go
+```
+
+Or manually using psql:
 
 ```bash
 psql $DATABASE_URL -f migrations/001_initial_schema.sql
 ```
 
-Or using Supabase CLI:
+### 5. Seed data
+
+Seed the database with location data:
 
 ```bash
-supabase db reset
-# Then manually run the migration file
+go run cmd/seed/main.go
 ```
 
-### 5. Seed data (optional)
+This will load data from the JSON files in the `data/` directory:
 
-Place normalized data files in the `data/` directory:
+- `countries.json`
 - `regions.json`
 - `districts.json`
 - `constituencies.json`
 - `cities.json`
-
-A seeder script can be created to load this data into the database.
 
 ### 6. Run the API
 
@@ -157,10 +163,10 @@ Request → Handler → Service → Repository → Database
 
 ### Layers
 
-- **Handlers** (`internal/handlers/`) - HTTP layer only, no business logic
-- **Services** (`internal/services/`) - Business logic and validation
-- **Repositories** (`internal/repositories/`) - Database access using pgx
-- **Models** (`internal/models/`) - Domain entities
+- **Handlers** (`pkg/handlers/`) - HTTP layer only, no business logic
+- **Services** (`pkg/services/`) - Business logic and validation
+- **Repositories** (`pkg/repositories/`) - Database access using pgx
+- **Models** (`pkg/models/`) - Domain entities
 
 ### Database Schema
 
@@ -172,12 +178,77 @@ Request → Handler → Service → Repository → Database
 
 All tables use UUID primary keys and slug fields for public identifiers. Slugs are stable and never change.
 
+## Deployment
+
+### Vercel (Serverless)
+
+This API is configured for deployment on Vercel as a serverless function.
+
+#### Prerequisites
+
+- Vercel account
+- PostgreSQL database (Supabase recommended)
+- `DATABASE_URL environment variable
+
+#### Deployment Steps
+
+1. **Connect your repository to Vercel**
+
+   - Import your GitHub repository in the Vercel dashboard
+   - Vercel will auto-detect the Go configuration
+
+2. **Set environment variables**
+
+   - In your Vercel project settings, add:
+     - `DATABASE_URL`: Your PostgreSQL connection string
+
+3. **Run migrations and seed data**
+
+   - Before deploying, ensure your production database is set up:
+
+   ```bash
+   # Set DATABASE_URL to your production database
+   export DATABASE_URL="your-production-database-url"
+
+   # Run migrations
+   go run cmd/migrate/main.go
+
+   # Seed data
+   go run cmd/seed/main.go
+   ```
+
+4. **Deploy**
+   - Push to your main branch or use `vercel deploy`
+   - Vercel will automatically build and deploy your function
+
+#### Configuration
+
+The `vercel.json` file configures:
+
+- Go runtime (auto-detected from `go.mod`)
+- Routing to the serverless function
+- Build settings
+
+#### Important Notes
+
+- The API uses `pkg/` instead of `internal/` packages to avoid Go's internal package visibility restrictions in serverless environments
+- Go version is set to 1.24 (Vercel's current supported version)
+- The handler is located at `api/index.go` and exports a `Handler` function
+
+#### Live API
+
+The deployed API is available at:
+
+- Production: `https://ghana-location-api.vercel.app`
+- Health check: `https://ghana-location-api.vercel.app/health`
+
 ## Technology Stack
 
-- **Language**: Go 1.22+
+- **Language**: Go 1.24
 - **Router**: Chi
 - **Database**: PostgreSQL with pgx driver
 - **Configuration**: Environment variables via godotenv
+- **Deployment**: Vercel (serverless)
 
 ## Development
 
@@ -185,18 +256,26 @@ All tables use UUID primary keys and slug fields for public identifiers. Slugs a
 
 ```
 ghana-location-api/
-├── cmd/api/
-│   └── main.go              # Application entry point
-├── internal/
-│   ├── handlers/            # HTTP handlers
-│   ├── services/            # Business logic
+├── api/
+│   └── index.go            # Vercel serverless function handler
+├── cmd/
+│   ├── api/
+│   │   └── main.go         # Local development server
+│   ├── migrate/
+│   │   └── main.go         # Database migration tool
+│   └── seed/
+│       └── main.go         # Database seeding tool
+├── pkg/
+│   ├── handlers/           # HTTP handlers
+│   ├── services/           # Business logic
 │   ├── repositories/       # Database access
-│   ├── models/              # Domain models
-│   ├── config/              # Configuration
-│   └── errors/              # Error handling
-├── migrations/              # SQL migrations
-├── data/                    # Seed data files
-├── scripts/                 # Data processing scripts
+│   ├── models/             # Domain models
+│   ├── config/             # Configuration
+│   └── errors/             # Error handling
+├── migrations/             # SQL migrations
+├── data/                   # Seed data files (JSON)
+├── scripts/                # Data processing scripts
+├── vercel.json             # Vercel deployment configuration
 ├── go.mod
 └── README.md
 ```
