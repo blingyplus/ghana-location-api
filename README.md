@@ -1,6 +1,7 @@
 # Ghana Location API
 
 A read-only REST API providing normalized administrative location data for Ghana, including countries, regions, districts, constituencies, and cities.
+https://ghana-location-api.vercel.app/api/v1/regions
 
 ## Overview
 
