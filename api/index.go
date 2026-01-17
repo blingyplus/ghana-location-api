@@ -4,6 +4,8 @@ import (
 	"context"
 	"net/http"
 	"os"
+	"strings"
+	"time"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
@@ -21,9 +23,19 @@ func init() {
 		panic("DATABASE_URL environment variable is required")
 	}
 
+	// Trim any whitespace that might have been accidentally included
+	databaseURL = strings.TrimSpace(databaseURL)
+
 	pool, err := pgxpool.New(context.Background(), databaseURL)
 	if err != nil {
-		panic(err)
+		panic("failed to create database pool: " + err.Error())
+	}
+
+	// Test connection with timeout
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	if err := pool.Ping(ctx); err != nil {
+		panic("failed to ping database: " + err.Error())
 	}
 
 	// Initialize repositories
