@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ghana-location-api/internal/models"
-	"github.com/ghana-location-api/internal/repositories"
-	"github.com/ghana-location-api/internal/errors"
+	"github.com/ghana-location-api/pkg/models"
+	"github.com/ghana-location-api/pkg/repositories"
+	"github.com/ghana-location-api/pkg/errors"
 )
 
 type LocationService struct {

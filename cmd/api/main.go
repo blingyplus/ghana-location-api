@@ -13,10 +13,10 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/ghana-location-api/internal/config"
-	"github.com/ghana-location-api/internal/handlers"
-	"github.com/ghana-location-api/internal/repositories"
-	"github.com/ghana-location-api/internal/services"
+	"github.com/ghana-location-api/pkg/config"
+	"github.com/ghana-location-api/pkg/handlers"
+	"github.com/ghana-location-api/pkg/repositories"
+	"github.com/ghana-location-api/pkg/services"
 )
 
 func main() {

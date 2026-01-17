@@ -3,7 +3,7 @@ package repositories
 import (
 	"context"
 
-	"github.com/ghana-location-api/internal/models"
+	"github.com/ghana-location-api/pkg/models"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 

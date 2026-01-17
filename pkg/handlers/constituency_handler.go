@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/ghana-location-api/internal/errors"
-	"github.com/ghana-location-api/internal/services"
+	"github.com/ghana-location-api/pkg/errors"
+	"github.com/ghana-location-api/pkg/services"
 )
 
 type ConstituencyHandler struct {

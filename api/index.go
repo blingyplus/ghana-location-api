@@ -3,25 +3,25 @@ package handler
 import (
 	"context"
 	"net/http"
+	"os"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/ghana-location-api/internal/config"
-	"github.com/ghana-location-api/internal/handlers"
-	"github.com/ghana-location-api/internal/repositories"
-	"github.com/ghana-location-api/internal/services"
+	"github.com/ghana-location-api/pkg/handlers"
+	"github.com/ghana-location-api/pkg/repositories"
+	"github.com/ghana-location-api/pkg/services"
 )
 
 var router http.Handler
 
 func init() {
-	cfg, err := config.Load()
-	if err != nil {
-		panic(err)
+	databaseURL := os.Getenv("DATABASE_URL")
+	if databaseURL == "" {
+		panic("DATABASE_URL environment variable is required")
 	}
 
-	pool, err := pgxpool.New(context.Background(), cfg.DatabaseURL)
+	pool, err := pgxpool.New(context.Background(), databaseURL)
 	if err != nil {
 		panic(err)
 	}

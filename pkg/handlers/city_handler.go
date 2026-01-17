@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ghana-location-api/internal/errors"
-	"github.com/ghana-location-api/internal/services"
+	"github.com/ghana-location-api/pkg/errors"
+	"github.com/ghana-location-api/pkg/services"
 )
 
 type CityHandler struct {
